@@ -1,0 +1,25 @@
+{
+	"songs": [
+		["Bopeebo (Pico Mix)", "dad", [255, 51, 51]],
+		["Fresh (Pico Mix)", "dad", [255, 51, 51]],
+		["DadBattle (Pico Mix)", "dad", [255, 51, 51]],
+		["Spookeez (Pico Mix)", "spooky", [255, 51, 51]],
+		["South (Pico Mix)", "spooky", [255, 51, 51]]
+	],
+
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "",
+
+	"storyName": "Prologue: Just Monika Socorro2",
+	"weekBefore": "",
+	"difficulties": "Hard",
+	"weekName": "...",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

@@ -1,0 +1,451 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				2400,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				4800,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				7200,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				9600,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				12000,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				14400,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				16800,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				19200,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				21600,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				24000,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				26400,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				28800,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				31200,
+				[
+					[
+						"Focus Camera",
+						"Opponent, 200, 80",
+						""
+					],
+					[
+						"ZoomCamera",
+						"0.75, 16, expoOut",
+						""
+					]
+				]
+			],
+			[
+				33600,
+				[
+					[
+						"ZoomCamera",
+						"0.85, 16, expoOut",
+						""
+					],
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				37200,
+				[
+					[
+						"Focus Camera",
+						"Opponent, 200, 80",
+						""
+					],
+					[
+						"ZoomCamera",
+						"0.75, 16, expoOut",
+						""
+					]
+				]
+			],
+			[
+				38400,
+				[
+					[
+						"ZoomCamera",
+						"0.85, 16, expoOut",
+						""
+					],
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				40800,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				43200,
+				[
+					[
+						"Focus Camera",
+						"Opponent, 200, 80",
+						""
+					],
+					[
+						"ZoomCamera",
+						"0.75, 16, expoOut",
+						""
+					]
+				]
+			],
+			[
+				45600,
+				[
+					[
+						"ZoomCamera",
+						"0.85, 16, expoOut",
+						""
+					],
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				50400,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				52800,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				55200,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				57600,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				58500,
+				[
+					[
+						"Focus Camera",
+						"Opponent, 200, 80",
+						""
+					],
+					[
+						"ZoomCamera",
+						"0.75, 16, expoOut",
+						""
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"ZoomCamera",
+						"0.9, 16, expoOut",
+						""
+					],
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				62400,
+				[
+					[
+						"Focus Camera",
+						"Opponent, 200, 80",
+						""
+					],
+					[
+						"ZoomCamera",
+						"0.75, 16, expoOut",
+						""
+					]
+				]
+			],
+			[
+				64800,
+				[
+					[
+						"ZoomCamera",
+						"0.9, 16, expoOut",
+						""
+					],
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				67200,
+				[
+					[
+						"Focus Camera",
+						"Opponent, 200, 80",
+						""
+					],
+					[
+						"ZoomCamera",
+						"0.75, 16, expoOut",
+						""
+					]
+				]
+			],
+			[
+				69600,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					],
+					[
+						"ZoomCamera",
+						"0.9, 16, expoOut",
+						""
+					]
+				]
+			],
+			[
+				72000,
+				[
+					[
+						"Focus Camera",
+						"Opponent, 200, 80",
+						""
+					],
+					[
+						"ZoomCamera",
+						"0.75, 16, expoOut",
+						""
+					]
+				]
+			],
+			[
+				74400,
+				[
+					[
+						"ZoomCamera",
+						"0.9, 16, expoOut",
+						""
+					],
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				76200,
+				[
+					[
+						"ZoomCamera",
+						"0.85, 16, expoOut",
+						""
+					]
+				]
+			],
+			[
+				77100,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				79200,
+				[
+					[
+						"Focus Camera",
+						"Opponent, 200, 80",
+						""
+					],
+					[
+						"ZoomCamera",
+						"0.75, 16, expoOut",
+						""
+					]
+				]
+			],
+			[
+				80100,
+				[
+					[
+						"ZoomCamera",
+						"0.7, 16, expoOut",
+						""
+					]
+				]
+			]
+		]
+	}
+}
