@@ -1,6 +1,6 @@
 local holdColors = {'Purple', 'Blue', 'Green', 'Red'}
 
-luaDebugMode = true
+--luaDebugMode = true
 function onCreate()
     prevGhostTap = getPropertyFromClass('backend.ClientPrefs', 'data.ghostTapping')
     setPropertyFromClass('backend.ClientPrefs', 'data.ghostTapping', false)
@@ -41,7 +41,17 @@ function onCreatePost()
     end
 end
 
-function onUpdate()
+-- i hate my life
+if curStage == 'phillyTrainErect' then
+function onCountdownTick(t)
+    if t == 0 then
+	onCreatePost()
+	for _, i in pairs({'healthBar', 'healthBar.bg', 'iconP1', 'iconP2'}) do setProperty(i..'.visible', true)end
+    end
+end
+end
+
+function onUpdatePost()
     setTextString('newScore', 'Score: '..score)
 
     for i = 1, #holdColors do
@@ -52,23 +62,12 @@ function onUpdate()
         if getProperty('opGlow'..holdColors[i]..'.animation.curAnim.finished') then
             setProperty('opGlow'..holdColors[i]..'.alpha', .001) end
     end
-
-    if stringStartsWith(gfName, 'nene') then
-	if combo == 50 then playAnim('gf', 'combo50', true) setProperty('gf.specialAnim', true)end
-	if combo == 100 or combo == 200 then playAnim('gf', 'combo100', true) setProperty('gf.specialAnim', true)end
-    end
 end
 
-function noteMiss()
-    if combo >= 70 then
-	playAnim('gf', 'loss70', true)
-	setProperty('gf.specialAnim', true)
-    end
-end
-
+local prevCombo = 0
 function goodNoteHit(i, d, t, s)
     if s then
-	    setProperty('boyfriend.holdTimer', 0)
+	setProperty('boyfriend.holdTimer', 0)
 
         local noteOffsets = {
             x = getPropertyFromGroup('playerStrums', d, 'x'),
@@ -87,6 +86,12 @@ function goodNoteHit(i, d, t, s)
             playAnim('glow'..holdColors[d+1], 'hold'..holdColors[d+1], true)
         end
     end
+
+    if stringStartsWith(gfName, 'nene') then
+	if combo == 50 then playAnim('gf', 'combo50', true) setProperty('gf.specialAnim', true)end
+	if combo == 200 then playAnim('gf', 'combo100', true) setProperty('gf.specialAnim', true)end
+    end
+    prevCombo = combo
 end
 
 function opponentNoteHit(i,d,t,s)
@@ -102,6 +107,14 @@ function opponentNoteHit(i,d,t,s)
         setProperty('opGlow'..holdColors[d+1]..'.x', noteOffsets.x-110)
         setProperty('opGlow'..holdColors[d+1]..'.y', noteOffsets.y-93)
     end
+end
+
+function noteMiss()
+    if prevCombo >= 70 and stringStartsWith(gfName, 'nene') then
+	playAnim('gf', 'drop70')
+	setProperty('gf.specialAnim', true)
+    end
+    prevCombo = 0
 end
 
 function onDestroy()

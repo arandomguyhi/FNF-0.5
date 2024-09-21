@@ -68,10 +68,10 @@ function onUpdatePost(elapsed)
     playAnim('spookyLight', getProperty('dad.animation.curAnim.name'), true)
     setProperty('spookyLight.animation.curAnim.curFrame', getProperty('dad.animation.curAnim.curFrame'))
 
-    if getProperty('boyfriend.animation.curAnim.name') == 'burpShit' or getProperty('boyfriend.animation.curAnim.name') == 'burpSmile' then
+    --[[if getProperty('boyfriend.animation.curAnim.name') == 'burpShit' or getProperty('boyfriend.animation.curAnim.name') == 'burpSmile' then
 	setProperty('picoLight.alpha', 0.001)
 	if getProperty('boyfriend.animation.curAnim.finished') then setProperty('picoLight.alpha', 1) end
-    end
+    end]]
 end
 
 function doLightningStrike(playsound, beat)

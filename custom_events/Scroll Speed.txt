@@ -1,2 +1,2 @@
-Value 1: Camera Target
-Value 2: sla
+Value 1: Target Speed, Duration (In Steps), Ease
+Value 2: Coming Soon

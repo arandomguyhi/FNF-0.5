@@ -45,20 +45,97 @@
 			"name": "pico Up note0"
 		},
 		{
+			"loop": false,
+			"offsets": [
+				68,
+				20
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "Pico Left Note MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				80,
+				-40
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Pico Down Note MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				29,
+				70
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Pico Up Note MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				33,
+				-3
+			],
+			"anim": "burpShit",
+			"fps": 24,
+			"name": "burpshit",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				33,
+				-3
+			],
+			"anim": "burpSmile",
+			"fps": 24,
+			"name": "burpsmile",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-3
+			],
+			"anim": "shit",
+			"fps": 24,
+			"name": "shit",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-55,
+				45
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "Pico Right Note MISS"
+		},
+		{
 			"offsets": [
 				-50,
 				1
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
+			"loop": false,
 			"name": "Pico Note Right0"
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
-	"image": "characters/Pico_Basic",
+	"image": "characters/Pico_Player",
 	"position": [
 		0,
 		0
