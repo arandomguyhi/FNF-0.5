@@ -7,7 +7,10 @@
 		["South (Pico Mix)", "spooky", [255, 51, 51]],
 		["Pico (Pico Mix)", "pico", [255, 51, 51]],
 		["Philly Nice (Pico Mix)", "pico", [255, 51, 51]],
-		["Blammed (Pico Mix)", "pico", [255, 51, 51]]
+		["Blammed (Pico Mix)", "pico", [255, 51, 51]],
+		["Eggnog (Pico Mix)", "parents", [255, 51, 51]],
+		["Ugh (Pico Mix)", "tankman", [255, 51, 51]],
+		["Guns (Pico Mix)", "tankman", [255, 51, 51]]
 	],
 
 	"weekCharacters": [

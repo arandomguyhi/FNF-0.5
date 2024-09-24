@@ -1,0 +1,711 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					],
+					[
+						"ZoomCamera",
+						"1.05, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				93.75,
+				[
+					[
+						"Set Camera Bop",
+						"1",
+						"0.8"
+					]
+				]
+			],
+			[
+				1500,
+				[
+					[
+						"Play Animation",
+						"augh",
+						"Dad"
+					],
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				3000,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				4500,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				5625,
+				[
+					[
+						"Play Animation",
+						"ugh",
+						"Dad"
+					]
+				]
+			],
+			[
+				5906.25,
+				[
+					[
+						"Set Camera Bop",
+						"2",
+						"1.5"
+					]
+				]
+			],
+			[
+				6000,
+				[
+					[
+						"Focus Camera",
+						"Opponent, 200, -10",
+						""
+					],
+					[
+						"ZoomCamera",
+						"1, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				10312.5,
+				[
+					[
+						"Set Camera Bop",
+						"2",
+						"0"
+					]
+				]
+			],
+			[
+				10500,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					],
+					[
+						"Play Animation",
+						"laugh",
+						"Dad"
+					],
+					[
+						"ZoomCamera",
+						"1.05, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				13875,
+				[
+					[
+						"Focus Camera",
+						"Opponent, 150, -10",
+						""
+					],
+					[
+						"ZoomCamera",
+						"1, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				14906.25,
+				[
+					[
+						"Set Camera Bop",
+						"2",
+						"1.5"
+					]
+				]
+			],
+			[
+				15000,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					],
+					[
+						"ZoomCamera",
+						"1.05, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				16875,
+				[
+					[
+						"ZoomCamera",
+						"1, 32, expoOut",
+						""
+					],
+					[
+						"Focus Camera",
+						"Opponent, 150, -10",
+						""
+					]
+				]
+			],
+			[
+				18000,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					],
+					[
+						"ZoomCamera",
+						"1.05, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				21000,
+				[
+					[
+						"ZoomCamera",
+						"1.1, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				24000,
+				[
+					[
+						"ZoomCamera",
+						"1.05, 32, expoOut",
+						""
+					],
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				30375,
+				[
+					[
+						"Focus Camera",
+						"Opponent, 150, -10",
+						""
+					],
+					[
+						"ZoomCamera",
+						"1, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				33000,
+				[
+					[
+						"ZoomCamera",
+						"1.05, 32, expoOut",
+						""
+					],
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				35906.25,
+				[
+					[
+						"Set Camera Bop",
+						"1",
+						"0.8"
+					]
+				]
+			],
+			[
+				36000,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				37500,
+				[
+					[
+						"Play Animation",
+						"ugh",
+						"Dad"
+					]
+				]
+			],
+			[
+				37687.5,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				39000,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					]
+				]
+			],
+			[
+				42000,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					]
+				]
+			],
+			[
+				43500,
+				[
+					[
+						"ZoomCamera",
+						"1.1, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				44625,
+				[
+					[
+						"ZoomCamera",
+						"1.05, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				45000,
+				[
+					[
+						"ZoomCamera",
+						"1, 32, expoOut",
+						""
+					],
+					[
+						"Focus Camera",
+						"Opponent, 150, -10",
+						""
+					]
+				]
+			],
+			[
+				47906.25,
+				[
+					[
+						"Set Camera Bop",
+						"2",
+						"1.5"
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Focus Camera",
+						"Opponent",
+						""
+					],
+					[
+						"ZoomCamera",
+						"1.04, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				49125,
+				[
+					[
+						"Focus Camera",
+						"Player, 50, 0",
+						"4, expoOut"
+					],
+					[
+						"ZoomCamera",
+						"1.08, 32, expoOut",
+						""
+					],
+					[
+						"Play Animation",
+						"burpSmile",
+						"BF"
+					]
+				]
+			],
+			[
+				49500,
+				[
+					[
+						"Play Animation",
+						"augh",
+						"Dad"
+					],
+					[
+						"ZoomCamera",
+						"1.04, 32, expoOut",
+						""
+					],
+					[
+						"Focus Camera",
+						"Opponent, 0, 0",
+						"4, expoOut"
+					]
+				]
+			],
+			[
+				50250,
+				[
+					[
+						"Play Animation",
+						"beat it",
+						"Dad"
+					],
+					[
+						"ZoomCamera",
+						"1.1, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				51000,
+				[
+					[
+						"ZoomCamera",
+						"1.05, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				53906.25,
+				[
+					[
+						"Set Camera Bop",
+						"1",
+						"0.8"
+					]
+				]
+			],
+			[
+				54000,
+				[
+					[
+						"Focus Camera",
+						"Opponent, 150, -10",
+						""
+					],
+					[
+						"ZoomCamera",
+						"1, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				55406.25,
+				[
+					[
+						"Set Camera Bop",
+						"2",
+						"1.5"
+					]
+				]
+			],
+			[
+				55500,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					],
+					[
+						"ZoomCamera",
+						"1.05, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				57000,
+				[
+					[
+						"ZoomCamera",
+						"1.1, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				58500,
+				[
+					[
+						"ZoomCamera",
+						"1.05, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				59906.25,
+				[
+					[
+						"Set Camera Bop",
+						"1",
+						"0.8"
+					]
+				]
+			],
+			[
+				60000,
+				[
+					[
+						"Focus Camera",
+						"Opponent, 150, -10",
+						""
+					],
+					[
+						"ZoomCamera",
+						"1, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				62906.25,
+				[
+					[
+						"Set Camera Bop",
+						"2",
+						"1.5"
+					]
+				]
+			],
+			[
+				66000,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					],
+					[
+						"ZoomCamera",
+						"1.05, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				66750,
+				[
+					[
+						"ZoomCamera",
+						"1, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				67500,
+				[
+					[
+						"ZoomCamera",
+						"1.04, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				68250,
+				[
+					[
+						"ZoomCamera",
+						"1.08, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				69000,
+				[
+					[
+						"ZoomCamera",
+						"1.12, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				69750,
+				[
+					[
+						"ZoomCamera",
+						"1.16, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				70500,
+				[
+					[
+						"ZoomCamera",
+						"1.25, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				71906.25,
+				[
+					[
+						"Set Camera Bop",
+						"1",
+						"0.8"
+					]
+				]
+			],
+			[
+				72000,
+				[
+					[
+						"Focus Camera",
+						"Opponent, 150, -10",
+						""
+					],
+					[
+						"ZoomCamera",
+						"1, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				77718.75,
+				[
+					[
+						"Play Animation",
+						"ugh",
+						"Dad"
+					]
+				]
+			],
+			[
+				78000,
+				[
+					[
+						"Focus Camera",
+						"Player",
+						""
+					],
+					[
+						"ZoomCamera",
+						"1.05, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				79500,
+				[
+					[
+						"ZoomCamera",
+						"1.1, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				81000,
+				[
+					[
+						"ZoomCamera",
+						"1.05, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				82500,
+				[
+					[
+						"ZoomCamera",
+						"1.1, 32, expoOut",
+						""
+					]
+				]
+			],
+			[
+				83906.25,
+				[
+					[
+						"Set Camera Bop",
+						"1",
+						"0"
+					]
+				]
+			]
+		]
+	}
+}

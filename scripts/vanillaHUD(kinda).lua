@@ -61,6 +61,9 @@ function onUpdatePost()
 
         if getProperty('opGlow'..holdColors[i]..'.animation.curAnim.finished') then
             setProperty('opGlow'..holdColors[i]..'.alpha', .001) end
+
+	if getVar('playerShoots') and getVar('explode') then -- this is for the pico dead shit
+	    setProperty('opGlow'..holdColors[i]..'.visible', false)end
     end
 end
 

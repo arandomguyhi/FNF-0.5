@@ -215,9 +215,6 @@ function doppleGangerCutscene(){
 
 		new FlxTimer().start(2, function(tmr)
 		{
-		    camHUD.fade(0x000000, 0.5, true);
-		    //PlayState.instance.camCutscene.fade(0xFF000000, 0.5, true, null, true);
-		    //PlayState.instance.endSong(true);
 		    game.endSong();
 		});
 	    }
@@ -231,6 +228,8 @@ function doppleGangerCutscene(){
 	    hasPlayedCutscene = true;
 	    //cutsceneMusic.stop();
     });
+    setVar('playerShoots', playerShoots);
+    setVar('explode', explode);
 }
 
 function onUpdatePost() {
@@ -250,4 +249,13 @@ function onUpdatePost() {
 	    if (explode && bloodPool.anim.curFrame >= 85) bloodPool.anim.curFrame = 85;
 	}
     }
+    if (playerShoots && explode) {
+	game.opponentVocals.volume = 0;
+	for(note in game.notes) {
+	    if (!note.mustPress)
+		note.offsetY = ClientPrefs.data.downScroll ? 100 : -100;
+	}
+    }
 }
+
+function opponentNoteHit(note) { if (playerShoots && explode) game.opponentStrums.members[note.noteData].playAnim('static', true); }

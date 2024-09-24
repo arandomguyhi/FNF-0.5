@@ -68,6 +68,25 @@ function onCreatePost()
     ]])
 end
 
+function onUpdatePost(el)
+    for i = 1,7 do setProperty('viz'..i..'.animation.curAnim.curFrame', 5)end
+end
+
+function onBeatHit()
+    playAnim('speaker', 'anim')
+
+    -- doing this like that for now, changing to event later
+    if songName:lower() == 'bopeebo (pico mix)' then
+	if curBeat >= 32 and curBeat <= 64 or curBeat >= 96 and curBeat <= 108 or curBeat >= 112 and curBeat <= 132 then
+	    setProperty('camHUD.zoom', getProperty('camHUD.zoom') + 0.03 * 0.6)
+	elseif curBeat >= 68 and curBeat <= 96 then
+	    setProperty('camHUD.zoom', getProperty('camHUD.zoom') + 0.03 * 0.7)
+	elseif curBeat >= 108 and curBeat <= 112 then
+	    setProperty('camHUD.zoom', getProperty('camHUD.zoom') + 0.03 * 0.4)
+	end
+    end
+end
+
 local VIZ_POS_X = {0, 59, 56, 66, 54, 52, 51}
 local VIZ_POS_Y = {0, -8, -3.5, -0.4, 0.5, 4.7, 7}
 
@@ -103,25 +122,4 @@ function newABot(x, y)
     addAnimationBySymbol('speaker', 'anim', 'Abot System', 24, false)
     playAnim('speaker', 'anim', true)
     addLuaSprite('speaker')
-end
-
-function onUpdate() for i = 1,7 do setProperty('viz'..i..'.animation.curAnim.curFrame', 5)end end
-
-function onBeatHit()
-    playAnim('speaker', 'anim')
-
-    -- doing this like that for now, changing to event later
-    if songName:lower() == 'bopeebo (pico mix)' then
-	if curBeat >= 32 and curBeat <= 64 or curBeat >= 96 and curBeat <= 108 or curBeat >= 112 and curBeat <= 132 then
-	    setProperty('camHUD.zoom', getProperty('camHUD.zoom') + 0.03 * 0.6)
-	elseif curBeat >= 68 and curBeat <= 96 then
-	    setProperty('camHUD.zoom', getProperty('camHUD.zoom') + 0.03 * 0.7)
-	elseif curBeat >= 108 and curBeat <= 112 then
-	    setProperty('camHUD.zoom', getProperty('camHUD.zoom') + 0.03 * 0.4)
-	end
-    end
-end
-
-function onMoveCamera(target)
-    --playAnim('eyes', target == 'dad' and 'lookleft' or 'lookright')
 end

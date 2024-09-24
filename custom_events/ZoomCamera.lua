@@ -8,7 +8,7 @@ local coiso = ''
 luaDebugMode = true
 function tweenCameraZoom(zoom, duration, direct, ease, mode)
 	local stageZoom = callMethodFromClass('backend.StageData', 'getStageFile', {curStage}).defaultZoom
-	local targetZoom = zoom * (direct and getProperty('defaultCamZoom') or stageZoom)
+	local targetZoom = tonumber(zoom) * (direct and getProperty('defaultCamZoom') or stageZoom)
 
 	if duration == 0 then
 		setProperty('defaultCamZoom', targetZoom)
